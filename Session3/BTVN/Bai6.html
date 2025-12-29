@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai8</title>
+</head>
+
+<body>
+    <header>
+    </header>
+    <main>
+        <form action = "Bai1.html" method = "post"> 
+            <table>
+                <tr>
+                    <td><label for="nickName">Họ và tên:</label></td>
+                    <td><input id="nickName" name="hoVaTen" placeholder="Nguyễn Văn A" type="text" /></td>
+                </tr>
+                <tr>
+                    <td><label for="DoB">Ngày sinh: </label></td>
+                    <td><input id="DoB" name="Ngaysinh" type="date" /></td>
+                </tr>
+                <tr>
+                    <td><label>Giới tính:</label></td>
+                    <td>
+                        <input id="nam" value="nam" name="Gender" type="radio" /> <label for="nam">Nam</label>
+                        <input id="nữ" value="nữ" name="Gender" type="radio" /> <label for="nữ">Nữ</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="telephone">Số điện thoại:</label></td>
+                    <td><input id="telephone" name="soDienThoai" type="tel" pattren="^(0[35789])[0-9]{8}$"></td>
+                </tr>
+                <tr>
+                    <td><label for="em">Email:</label></td>
+                    <td><input id="em" name="email" type="email" placeholder="nguyenvanA@gmail.com" /></td>
+                </tr>
+                <tr>
+                    <td><label for="Company">Tên công ty:</label></td>
+                    <td><input id="Company" name="Congty" type="text" /></td>
+                </tr>
+                <tr>
+                    <td><label for="role">Vai trò trong công ty:</label></td>
+                    <td>
+                        <select id="role">
+                            <option selected value="CEO">Giám đốc điều hành(CEO)</option>
+                            <option value="Nhân viên">Nhân viên</option>
+                            <option value="Bảo vệ">Bảo vệ</option>
+                            <option value="Boss trùm">Chủ tịch</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="scale">Quy mô công ty:</label></td>
+                    <td>
+                        <select id="scale">
+                            <option selected value="Doanh nghiệp nhở">Doanh nghiệp nhỏ</option>
+                            <option value="Doanh nghiệp trung bình">Doanh nghiệp trung bình</option>
+                            <option value="Doanh nghiệp lớn">Doanh nghiệp lớn</option>
+                            <option value="Doanh nghiệp thế giới">Doanh nghiệp thế giới</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for = "job">Ngành nghề công ty:</label></td>
+                    <td><input id = "job" name = "nghenghiep" type = "text"/></td>
+                </tr>
+                <tr>
+                    <td><label for = "reason">Lý do tham gia câu lạc bộ:</label></td>
+                    <td><textarea id ="reason" name = "lydocuaban" rows = "2" style ="width: 200px;"></textarea></td>
+                </tr>
+                <tr>
+                    <td><label for = "experience">Kinh nghiệm lãnh đạo:</label></td>
+                    <td><textarea id ="experience" name = "kinhnghiemcuaban" rows = "2" style ="width: 200px;"></textarea></td>
+                </tr>
+                <tr>
+                    <td><label for = "goals">Mục tiêu khi tham gia câu lạc bộ:</label></td>
+                    <td><textarea id ="goals" name = "muctieucuaban" rows = "2" style ="width: 200px;"></textarea></td>
+                </tr>
+                <tr>
+                    <td><label>Chương trình sự kiện mong muốn tham gia:</label></td>
+                    <td>
+                        <input id = "Net" value = "Networking" type =  "checkbox" /> <label for ="Net">Networking</label>
+                        <input id = "Wor" value = "Workshops" type =  "checkbox" /> <label for ="Wor">Workshop</label>
+                        <input id = "Hoi" value = "Hội thảo" type =  "checkbox" /> <label for ="Hoi">Hội thảo</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Đăng ký nhận bản tin:</label></td>
+                    <td><input id = "sign" name = "Đăng ký" value="Có" type = "checkbox" /> <label for ="sign">Có</label> </td>
+                </tr>
+                <tr>
+                    <td><input name = "Đăng ký hội viên" value="Đăng ký hội viên" type ="submit" />
+                </tr>
+            </table>
+        </form>
+    </main>
+    <footer>
+    </footer>
+</body>
+
+</html>
