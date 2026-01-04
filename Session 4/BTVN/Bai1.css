@@ -1,0 +1,13 @@
+.header {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(34, 242, 72);
+    text-align: center;
+    width:30%;
+    margin: auto;
+    line-height: 1;
+}
+h2 {
+    font-size: 35px;
+
+
+}

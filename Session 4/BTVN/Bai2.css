@@ -1,0 +1,11 @@
+footer{
+    font-family: 'Courier New', Courier, monospace ;
+    background-color:#7fbaf5;
+    color: white;
+    text-align: center;
+    margin:auto;
+    width: 40%;
+}
+footer a{
+    color:blue;
+}

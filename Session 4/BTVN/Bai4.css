@@ -1,0 +1,17 @@
+.services{
+    background-color: #f4f4f9;
+    width: 70%;
+    margin: auto;
+    padding: 20px;
+}
+.services h2 {
+    color: #1e90ff;
+    text-align: center;
+}
+.down p{
+    margin: 5px 0;
+    font-size: small;
+}
+.up p{
+    margin: 5px 0;
+}

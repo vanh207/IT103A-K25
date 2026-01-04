@@ -1,0 +1,44 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.head h2{
+    margin-top: 0;
+    color:#1e6df6;
+    display: inline;
+}
+.head p{
+    margin-top: 10px;
+    color:#1e6df6;
+    font-style:italic ;
+}
+.head{
+    padding: 15px;
+    width: 70%;
+    margin:auto;
+}
+.head:hover{
+    background-color: #dde1e7;
+}
+img{
+    width: 30%;
+}
+.Bottom h3 {
+    font-size: 25px;
+    color: #00bfff;
+}
+.Bottom p{
+    margin: 8px;
+}
+#pNumber1{
+    color:red;
+}
+#pNumber2{
+    font-style: italic;
+}
+#pNumber3{
+    text-decoration: underline;
+}
+#pNumber4{
+    font-weight: bolder;
+}

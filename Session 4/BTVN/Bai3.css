@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box{
+    background-color: #f4f4f9;
+    width: 70%;
+    margin: auto;
+}
+.right h2{
+    color: #1e90ff;
+}
+.right{
+    text-align: center;
+}
+.Disable{
+    text-decoration: line-through underline;
+}
+.bold{
+    font-weight:bolder;
+}
+.word{
+    letter-spacing: 3px;
+}
