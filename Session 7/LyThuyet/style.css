@@ -1,0 +1,13 @@
+.text {
+  background-color: red;
+  width: 200px;
+  height: 200px;
+  border: 5px solid rgb(2, 0, 0);
+  padding: auto;
+  border-radius: 5px;
+}
+.text_v2 {
+  background-color: pink;
+  width: 200px;
+  height: 200px;
+}
