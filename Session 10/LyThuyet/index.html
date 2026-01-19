@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: flex;
+            justify-content: center;
+        }
+        .item{
+            background-color: blue;
+            width: 100px;
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <!-- flex - Box: Dùng để tạo layout cho các phần tử HTML
+        1. flex- container: phần tử cha
+        2. flex- item: phần tử con  
+        3. Để 1 phần tử (Khối) có thể sử dụng cấc thuộc tính của flex-Box
+            display: flex(none, block, inline, inline-Block, flex)
+        4.Các trục trong flex-Box
+            chia làm 2 trục:
+            trục chính: main axis
+            trục phụ: cross axis
+            2 trục luôn vuông góc với nhau
+        5. Các thuộc tính trong flexbox
+            5.1: flex-direction: quyết định vị trí của main-axis và cross axis
+            - giá trị mặc định là row:
+            - Nếu flex direction: colunm: main-axis sẽ nằm trục dọc và trục phụ nằm ngang
+            5.2: justify-content: luôn căn chỉnh phần tử theo trục MAIN AXIS
+                các giá trị của  thuộc tính: 
+                + flex-start:
+                + flex-end
+                + center
+                + space-bettween
+                + space-around
+                + space evenly
+            5.3: align-itams: 
+            5.4 flex-wrap:
+                + trạng thái mặc định: nowarp
+            5.5 gap: khoảng cách giữa các phần tử flex-items
+            5.6: align-content: khoảng cách giữa các dòng căn theo trục Y
+            (Bắt buộc thuộc tính flex-wrap: wrap)
+        -->
+        <div class="container">
+            <div class="item Box1">1</div>
+            <div class="item Box2">2</div>
+            <div class="item Box3">3</div>
+            <div class="item Box4">4</div>
+            <div class="item Box5">5</div>
+        </div>
+</body>
+</html>

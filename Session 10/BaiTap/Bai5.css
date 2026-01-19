@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Menulist{
+    background-color: #f4f4f4;
+    height: max-content;
+    margin-top: 20px;
+}
+.contener{
+    display:flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    align-content: space-around;
+    padding: 50px 100px;
+}
+.Menulist h1{
+    margin-bottom: 20px;
+    text-align: center;
+}
+.div--foodImage img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    transition: all 0.25s linear;
+
+}
+.div--food{
+    text-align: center;
+    width: 300px;
+    height: 350px;
+    padding-bottom: 10px;
+    border-radius: 16px;
+    background-color: white;
+    overflow: hidden;
+    box-shadow: 5px 6px 10px black;
+    transition: all 0.25s linear;
+}
+.div--food h2{
+    margin: 20px 0 15px;
+}
+.span--money{
+    color: rgb(135, 45, 45);
+}
+.div--food:nth-child(1){
+    flex: 1 1 45%;
+}
+.div--food:nth-child(4),
+.div--food:nth-child(5){
+    flex-grow: 1;
+}
+.div--food:hover{
+    border: 2px solid rgb(119, 212, 185);
+    box-shadow: 2px 2px 5px rgb(81, 220, 202);
+}
+.div--foodImage img:hover{
+    scale: calc(1.1);
+}
+.div--food h2, 
+.div--food span{
+    transition: all 0.25s linear;
+}
+.div--food:hover h2, 
+.div--food:hover span{
+    transform: translateY(12px);
+}
