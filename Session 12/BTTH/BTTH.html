@@ -1,104 +1,73 @@
 <!doctype html>
-<html lang="en">
+<html lang="vi">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="./BTTH.css" />
+    <link rel="stylesheet" href="BTTH.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+    <title>IT Course Landing Page</title>
   </head>
   <body>
-    <header>
-      <div class="header-inner">
-        <div class="logo">Elearning</div>
-        <div class="search-bar">
-          <input type="text" placeholder="Tìm khóa học..." />
-        </div>
-        <nav class="nav-desktop">
-          <a href="#">Khóa học</a>
-          <a href="#">Tiến độ</a>
-          <a href="#">Hồ sơ</a>
-        </nav>
-        <label for="menu" class="hamburger">☰</label>
+    <header class="site-header">
+      <div class="logo">IT Course</div>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="#">Trang chủ</a></li>
+          <li><a href="#">Khóa học</a></li>
+          <li><a href="#">Liên hệ</a></li>
+        </ul>
+      </nav>
+      <div class="mobile-menu-btn">
+        <i class="bi bi-list"></i>
       </div>
     </header>
 
-    <input type="checkbox" id="menu" hidden="" />
+    <section class="hero-section">
+      <h1 class="hero-title">Trở thành lập trình viên chuyên nghiệp</h1>
+      <p class="hero-subtitle">
+        Học ngay hôm nay để đón đầu xu hướng công nghệ
+      </p>
+      <button class="btn-register">Đăng ký ngay</button>
+    </section>
 
-    <main>
-      <section class="welcome">
-        <div>
-          <h2>Xin chào, Bạn tôi!</h2>
-          <p>Chúc bạn học tập hiệu quả hôm nay</p>
+    <section class="features-section">
+      <div class="features-grid">
+        <div class="feature-item">
+          <i class="bi bi-laptop fs-1 text-primary"></i>
+          <h3>Công nghệ hiện đại</h3>
+          <p>Cập nhật liên tục theo xu hướng mới nhất</p>
         </div>
-        <div>
-          <p style="margin-bottom: 0.5rem">Tiến độ tổng: 68%</p>
-          <div class="progress-bar">
-            <div class="progress-fill"></div>
-          </div>
-        </div>
-      </section>
 
-      <section>
-        <h3 class="section-title">Khóa học đang học</h3>
-        <div class="grid">
-          <div class="card">
-            <img src="./img/1068-400x250.jpg" alt="" />
-            <div class="card-body">
-              <h4>CSS Flexbox &amp; Grid</h4>
-              <p style="color: #666; font-size: 0.95rem">Hoàn thành: 85%</p>
-              <a href="#" class="btn"
-                >Tiếp tục học</a
-              >
-            </div>
-          </div>
-          <div class="card">
-            <img src="./img/451-400x250.jpg" alt="" />
-            <div class="card-body">
-              <h4>JavaScript Cơ bản</h4>
-              <p style="color: #666; font-size: 0.95rem">Hoàn thành: 42%</p>
-              <a href="#" class="btn"
-                >Tiếp tục học</a
-              >
-            </div>
-          </div>
-          <div class="card">
-            <img src="./img/1006-400x250.jpg" alt="" />
-            <div class="card-body">
-              <h4>Responsive Web Design</h4>
-              <p style="color: #666; font-size: 0.95rem">Hoàn thành: 95%</p>
-              <a href="#" class="btn"
-                >Tiếp tục học</a
-              >
-            </div>
-          </div>
+        <div class="feature-item">
+          <i class="bi bi-people fs-1 text-success"></i>
+          <h3>Học cùng chuyên gia</h3>
+          <p>Giảng viên là các lập trình viên có kinh nghiệm</p>
         </div>
-      </section>
 
-      <section>
-        <h3 class="section-title">Khóa học gợi ý</h3>
-        <div class="grid">
-          <div class="card">
-            <img src="./img/719-400x250.jpg" alt="" />
-            <div class="card-body">
-              <h4>React cho người mới</h4>
-              <p style="color: #666; font-size: 0.9rem">Bắt đầu ngay hôm nay</p>
-              <a href="#" class="btn"
-                >Xem chi tiết</a
-              >
-            </div>
-          </div>
-          <div class="card">
-            <img src="./img/60-400x250.jpg" alt="" />
-            <div class="card-body">
-              <h4>Python Cơ bản</h4>
-              <p style="color: #666; font-size: 0.9rem">Phù hợp beginner</p>
-              <a href="#" class="btn"
-                >Xem chi tiết</a
-              >
-            </div>
-          </div>
+        <div class="feature-item">
+          <i class="bi bi-briefcase fs-1 text-danger"></i>
+          <h3>Cơ hội việc làm</h3>
+          <p>Kết nối doanh nghiệp, đảm bảo thực tập & việc làm</p>
         </div>
-      </section>
-    </main>
+      </div>
+    </section>
+
+    <section class="form-section">
+      <h2 class="form-title">Đăng ký nhận tư vấn</h2>
+      <form>
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Họ và tên" />
+        </div>
+        <div class="form-group">
+          <input type="email" class="form-control" placeholder="Email" />
+        </div>
+        <button type="button" class="btn-submit">Gửi đăng ký</button>
+      </form>
+    </section>
+
+    <footer class="site-footer">© 2025 IT Course. All rights reserved.</footer>
   </body>
 </html>
